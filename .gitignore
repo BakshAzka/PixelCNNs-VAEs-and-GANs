@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# TensorFlow
+*.ckpt
+*.h5
+*.hdf5
+*.pb
+saved_model/
+logs/
+tensorboard/
+
+# PyTorch
+*.pth
+*.pt
+!generator.pth
+!discriminator.pth
+
+# Data directories
+data/
+datasets/
+img_align_celeba/
+*.zip
+*.tar.gz
+*.rar
+
+# CelebA dataset files
+list_attr_celeba.txt
+list_eval_partition.txt
+list_bbox_celeba.txt
+list_landmarks_align_celeba.txt
+identity_CelebA.txt
+
+# Audio files (The Last of Us theme)
+*.mp3
+*.wav
+*.flac
+
+# Generated images (keep only selected results)
+# Uncomment to ignore all generated images
+# *.png
+# *.jpg
+# *.jpeg
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+
+# Large model files
+*.pkl
+*.pickle
+model_weights/
+checkpoints/
