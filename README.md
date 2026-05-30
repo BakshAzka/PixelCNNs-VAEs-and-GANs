@@ -1,8 +1,4 @@
 
-## 📋 Overview
-
-This repository contains implementations of three core generative models in deep learning as part of the CS437/CS5317/EE414/EE513 Deep Learning course. The assignment explores different approaches to image generation and representation learning using popular deep learning architectures.
-
 ## 🎯 Project Components
 
 ### 1. PixelCNN Implementation (Part 1)
